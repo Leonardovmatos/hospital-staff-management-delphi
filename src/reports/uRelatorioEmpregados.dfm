@@ -426,7 +426,7 @@ object RelatorioEmpregados: TRelatorioEmpregados
     object ppFooterBand1: TppFooterBand
       Border.mmPadding = 0
       mmBottomOffset = 0
-      mmHeight = 6138
+      mmHeight = 4445
       mmPrintPosition = 0
       object ppDBCalc1: TppDBCalc
         DesignLayer = ppDesignLayer1
@@ -448,12 +448,6 @@ object RelatorioEmpregados: TRelatorioEmpregados
         BandType = 8
         LayerName = Foreground
       end
-    end
-    object ppSummaryBand1: TppSummaryBand
-      Border.mmPadding = 0
-      mmBottomOffset = 0
-      mmHeight = 4022
-      mmPrintPosition = 0
       object plblTotal: TppLabel
         DesignLayer = ppDesignLayer1
         UserName = 'plblTotal'
@@ -469,9 +463,9 @@ object RelatorioEmpregados: TRelatorioEmpregados
         Transparent = True
         mmHeight = 4022
         mmLeft = 7620
-        mmTop = 0
+        mmTop = 423
         mmWidth = 7197
-        BandType = 7
+        BandType = 8
         LayerName = Foreground
       end
     end

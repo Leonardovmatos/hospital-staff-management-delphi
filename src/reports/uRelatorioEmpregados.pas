@@ -38,7 +38,6 @@ type
     dlblAdmissao: TppDBText;
     dlblSalario: TppDBText;
     dlblComissao: TppDBText;
-    ppSummaryBand1: TppSummaryBand;
     plblTotal: TppLabel;
     ppDBCalc1: TppDBCalc;
     procedure FormCreate(Sender: TObject);
@@ -72,8 +71,6 @@ begin
       ShowMessage('Não há empregados para exibir no relatório.');
       Exit;
     end;
-
-    ShowMessage('Registros na query: ' +qryRelatorioEmpregados.RecordCount.ToString);
 
     pprEmpregados.PrintReport;
 end;
