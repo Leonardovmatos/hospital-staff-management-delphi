@@ -10,10 +10,10 @@ Ordene pelo maior salário.
 10 - Escreva uma consulta para exibir o nome do empregado e a data de admissão para todos os empregados que estão no mesmo departamento do empregado "Marcelo", excluindo-o do resultado.  
 
 
-	select e.nm_empregado, e.data_admissao, e.id_departamento,e.nm_departamento
+	select e.nm_empregado, e.data_admissao
 	  from empregados e
 	  join departamentos d on (d.id_departamento = e.cod_departamento)
-     where e.id_departamento = 
+     where e.cod_departamento  = 
 
 	 (
 		select e2.cod_departamento
@@ -40,7 +40,7 @@ Ordene pelo maior salário.
 12 - Escreva uma consulta que mostre o nome do empregado, o departamento, a localização e a função de todos os empregados admitidos há mais de 5 anos, cujo salário ultrapasse o menor salário entre os empregados de função "Gerente".
 
 
-	select e.nm_empregado, e.nm_departamento, d.local, e.nm_funcao
+	select e.nm_empregado, d.nm_departamento, d.local, e.nm_funcao
 	  from empregados e
 	  join departamentos d on (d.id_departamento = e.cod_departamento)
      where e.data_admissao <= current_date - interval '5 years'
