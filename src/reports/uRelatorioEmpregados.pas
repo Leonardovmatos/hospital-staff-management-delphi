@@ -40,6 +40,7 @@ type
     dlblComissao: TppDBText;
     plblTotal: TppLabel;
     ppDBCalc1: TppDBCalc;
+    ppLine1: TppLine;
     procedure FormCreate(Sender: TObject);
   private
     procedure MontarConsulta(const AFiltro: TFiltroEmpregado);

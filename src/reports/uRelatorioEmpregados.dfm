@@ -111,7 +111,7 @@ object RelatorioEmpregados: TRelatorioEmpregados
     object ppHeaderBand1: TppHeaderBand
       Border.mmPadding = 0
       mmBottomOffset = 0
-      mmHeight = 12488
+      mmHeight = 17145
       mmPrintPosition = 0
       object plblTitulo: TppLabel
         DesignLayer = ppDesignLayer1
@@ -121,15 +121,15 @@ object RelatorioEmpregados: TRelatorioEmpregados
         Font.Charset = DEFAULT_CHARSET
         Font.Color = clBlack
         Font.Name = 'Arial'
-        Font.Size = 10
+        Font.Size = 16
         Font.Style = []
         FormFieldSettings.FormSubmitInfo.SubmitMethod = fstPost
         FormFieldSettings.FormFieldType = fftNone
         Transparent = True
-        mmHeight = 4022
+        mmHeight = 6773
         mmLeft = 7620
-        mmTop = 1900
-        mmWidth = 67734
+        mmTop = 4025
+        mmWidth = 113242
         BandType = 0
         LayerName = Foreground
       end
@@ -148,7 +148,7 @@ object RelatorioEmpregados: TRelatorioEmpregados
         Transparent = True
         mmHeight = 4022
         mmLeft = 7620
-        mmTop = 8466
+        mmTop = 13124
         mmWidth = 8890
         BandType = 0
         LayerName = Foreground
@@ -167,8 +167,8 @@ object RelatorioEmpregados: TRelatorioEmpregados
         FormFieldSettings.FormFieldType = fftNone
         Transparent = True
         mmHeight = 4022
-        mmLeft = 53340
-        mmTop = 8466
+        mmLeft = 45072
+        mmTop = 13124
         mmWidth = 11642
         BandType = 0
         LayerName = Foreground
@@ -187,8 +187,8 @@ object RelatorioEmpregados: TRelatorioEmpregados
         FormFieldSettings.FormFieldType = fftNone
         Transparent = True
         mmHeight = 4022
-        mmLeft = 76200
-        mmTop = 8466
+        mmLeft = 74292
+        mmTop = 13124
         mmWidth = 21590
         BandType = 0
         LayerName = Foreground
@@ -207,8 +207,8 @@ object RelatorioEmpregados: TRelatorioEmpregados
         FormFieldSettings.FormFieldType = fftNone
         Transparent = True
         mmHeight = 4022
-        mmLeft = 106680
-        mmTop = 8466
+        mmLeft = 102652
+        mmTop = 13124
         mmWidth = 8255
         BandType = 0
         LayerName = Foreground
@@ -227,8 +227,8 @@ object RelatorioEmpregados: TRelatorioEmpregados
         FormFieldSettings.FormFieldType = fftNone
         Transparent = True
         mmHeight = 4022
-        mmLeft = 124460
-        mmTop = 8466
+        mmLeft = 131244
+        mmTop = 13124
         mmWidth = 15028
         BandType = 0
         LayerName = Foreground
@@ -247,8 +247,8 @@ object RelatorioEmpregados: TRelatorioEmpregados
         FormFieldSettings.FormFieldType = fftNone
         Transparent = True
         mmHeight = 4022
-        mmLeft = 144780
-        mmTop = 8466
+        mmLeft = 151988
+        mmTop = 13124
         mmWidth = 10795
         BandType = 0
         LayerName = Foreground
@@ -267,9 +267,22 @@ object RelatorioEmpregados: TRelatorioEmpregados
         FormFieldSettings.FormFieldType = fftNone
         Transparent = True
         mmHeight = 4022
-        mmLeft = 165100
-        mmTop = 8466
+        mmLeft = 175700
+        mmTop = 13124
         mmWidth = 15240
+        BandType = 0
+        LayerName = Foreground
+      end
+      object ppLine1: TppLine
+        DesignLayer = ppDesignLayer1
+        UserName = 'Line1'
+        Border.mmPadding = 0
+        Position = lpBottom
+        Weight = 0.600000023841857900
+        mmHeight = 2117
+        mmLeft = 5712
+        mmTop = 15028
+        mmWidth = 185844
         BandType = 0
         LayerName = Foreground
       end
@@ -288,14 +301,14 @@ object RelatorioEmpregados: TRelatorioEmpregados
         Font.Charset = DEFAULT_CHARSET
         Font.Color = clBlack
         Font.Name = 'Arial'
-        Font.Size = 10
+        Font.Size = 9
         Font.Style = []
         Transparent = True
         DataPipelineName = 'pplEmpregados'
-        mmHeight = 4022
+        mmHeight = 3598
         mmLeft = 7620
         mmTop = 0
-        mmWidth = 44450
+        mmWidth = 36195
         BandType = 4
         LayerName = Foreground
       end
@@ -308,14 +321,14 @@ object RelatorioEmpregados: TRelatorioEmpregados
         Font.Charset = DEFAULT_CHARSET
         Font.Color = clBlack
         Font.Name = 'Arial'
-        Font.Size = 10
+        Font.Size = 9
         Font.Style = []
         Transparent = True
         DataPipelineName = 'pplEmpregados'
-        mmHeight = 4022
-        mmLeft = 53340
+        mmHeight = 3598
+        mmLeft = 45072
         mmTop = 0
-        mmWidth = 21167
+        mmWidth = 27728
         BandType = 4
         LayerName = Foreground
       end
@@ -328,12 +341,12 @@ object RelatorioEmpregados: TRelatorioEmpregados
         Font.Charset = DEFAULT_CHARSET
         Font.Color = clBlack
         Font.Name = 'Arial'
-        Font.Size = 10
+        Font.Size = 9
         Font.Style = []
         Transparent = True
         DataPipelineName = 'pplEmpregados'
-        mmHeight = 4022
-        mmLeft = 76200
+        mmHeight = 3598
+        mmLeft = 74292
         mmTop = 0
         mmWidth = 27305
         BandType = 4
@@ -348,14 +361,14 @@ object RelatorioEmpregados: TRelatorioEmpregados
         Font.Charset = DEFAULT_CHARSET
         Font.Color = clBlack
         Font.Name = 'Arial'
-        Font.Size = 10
+        Font.Size = 9
         Font.Style = []
         Transparent = True
         DataPipelineName = 'pplEmpregados'
-        mmHeight = 4022
-        mmLeft = 106680
+        mmHeight = 3598
+        mmLeft = 102652
         mmTop = 0
-        mmWidth = 16510
+        mmWidth = 26882
         BandType = 4
         LayerName = Foreground
       end
@@ -369,12 +382,12 @@ object RelatorioEmpregados: TRelatorioEmpregados
         Font.Charset = DEFAULT_CHARSET
         Font.Color = clBlack
         Font.Name = 'Arial'
-        Font.Size = 10
+        Font.Size = 9
         Font.Style = []
         Transparent = True
         DataPipelineName = 'pplEmpregados'
-        mmHeight = 4022
-        mmLeft = 124460
+        mmHeight = 3598
+        mmLeft = 131244
         mmTop = 0
         mmWidth = 18627
         BandType = 4
@@ -390,14 +403,14 @@ object RelatorioEmpregados: TRelatorioEmpregados
         Font.Charset = DEFAULT_CHARSET
         Font.Color = clBlack
         Font.Name = 'Arial'
-        Font.Size = 10
+        Font.Size = 9
         Font.Style = []
         Transparent = True
         DataPipelineName = 'pplEmpregados'
-        mmHeight = 4022
-        mmLeft = 144780
+        mmHeight = 3598
+        mmLeft = 151988
         mmTop = 0
-        mmWidth = 19262
+        mmWidth = 22013
         BandType = 4
         LayerName = Foreground
       end
@@ -411,14 +424,14 @@ object RelatorioEmpregados: TRelatorioEmpregados
         Font.Charset = DEFAULT_CHARSET
         Font.Color = clBlack
         Font.Name = 'Arial'
-        Font.Size = 10
+        Font.Size = 9
         Font.Style = []
         Transparent = True
         DataPipelineName = 'pplEmpregados'
-        mmHeight = 4022
-        mmLeft = 165100
+        mmHeight = 3598
+        mmLeft = 175700
         mmTop = 0
-        mmWidth = 28363
+        mmWidth = 15240
         BandType = 4
         LayerName = Foreground
       end
@@ -442,9 +455,9 @@ object RelatorioEmpregados: TRelatorioEmpregados
         Transparent = True
         DataPipelineName = 'pplEmpregados'
         mmHeight = 4022
-        mmLeft = 144357
+        mmLeft = 131657
         mmTop = 423
-        mmWidth = 13758
+        mmWidth = 32385
         BandType = 8
         LayerName = Foreground
       end
