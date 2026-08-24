@@ -1,0 +1,23 @@
+# Configuração local com credenciais
+bin/config.ini
+
+# Arquivos temporários Delphi
+*.dcu
+*.identcache
+*.local
+*.rsm
+*.tvsconfig
+*.dsk
+*.stat
+__history/
+__recovery/
+
+# Pastas de compilação
+Win32/
+Win64/
+Debug/
+Release/
+
+# Backups
+*.bak
+*.~*
